@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(229, 173, 192);
+    padding: 10px;
+}
+.nav-id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.nav-links ol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+    
+    gap: 25px;
+    
+}
+.nav-links a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.nav-links a:hover{
+    border-bottom: 4px solid palevioletred;
+    background-color: pink;
+    color: rgb(240, 92, 141);
+    
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cart{
+    position: relative;
+}
+.cart span{
+    border-radius: 25px;
+    background-color: rgb(228, 153, 178);
+    font-size: 11px;
+    padding: 2px 5px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: black;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+.main img:hover{
+    height: 460px;
+}
+.main h4{
+    font-size: 50px;
+    
+    
+}
+.main p{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.main button{
+   padding: 10px 20px;
+   border:2px solid palevioletred;
+   border-radius: 5px;
+
+}
+.show{
+    color: white;
+    background-color: rgb(187, 95, 126);
+    margin-right: 13px;
+}
+.explore{
+    color: palevioletred;
+    background-color: white;
+}
+.main button:hover{
+    font-size: 15px;
+}
+span{
+    color: rgb(184, 62, 103);
+}
+.ribbon1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(228, 164, 185);
+    
+}
+.beauty{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+h1{
+    text-align: center;
+    margin: 40px;
+}
+.feature .item{
+    background-color: rgb(241, 223, 229);
+    height: 320px; 
+    width: 300px;
+    text-align: center;
+    
+}
+.item img:hover{
+    height: 220px;
+}
+.item svg{
+    border: 3px solid white;
+    border-radius: 10px;
+    fill: white;
+    background-color: palevioletred;
+    padding: 5px 10px;
+}
+.item h5{
+    margin: 13px 0px;
+}
+.products{
+    background-color: rgb(245, 243, 243);
+    height: 330px;
+    width: 180px;
+    text-align: center;
+    /* box-shadow: 0px 0px 20px rgb(185, 64, 85); */
+}
+.products:hover{
+    box-shadow: 0px 0px 20px rgb(119, 101, 104);
+    background-color: rgb(248, 220, 230);
+}
+.products button{
+    padding: 8px 40px;
+    background-color: rgb(223, 151, 175);
+    border: none;
+    border-radius: 5px;
+}
+.products button:hover{
+    font-size: 15px;
+}
+
+.products h3{
+   margin: 5px 0px;
+}
+.background{
+    height: 250px;
+    background-image: url(background\ image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}.background h4{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.background h1{
+    font-size: 50px;
+    margin: 10px 0px;
+}
+.background h3{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.background button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(214, 123, 153);
+    color: white;
+    font-size: 20px;
+}
+.background button:hover{
+    font-size:23px ;
+    background-color: rgb(209, 119, 149);
+}
+.reason{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+    font-size: 20px;
+}
+.choosen{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+   text-align: center;
+   background-color: rgb(240, 225, 230);
+   padding: 35px 0px;
+   margin: 0px 30px;
+   
+   border-radius: 30px;
+   box-shadow: 0px 0px 10px rgb(122, 100, 108);
+   margin-bottom: 20px;
+    
+}
+.choosen:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    background-color: rgb(224, 166, 186);
+}
+.star{
+    color: goldenrod;
+}
+.gallery-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.gallary{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    
+    
+    
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    height: 490px;
+    width: 900px;
+    background-color:rgb(241, 226, 226);
+    border-radius: 40px;
+}    
+.two{
+    height: 490px;
+    width: 400px;
+    background-color: rgb(240, 169, 193);
+    border-radius: 40px;
+}
+.image-part img{
+    border-radius: 10px;
+    margin: 10px;
+}
+.beauty-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    line-height: 24px;
+    /* padding: 30px; */
+    gap: 20px;
+}
+.email-address{
+   margin-left: 50px;
+
+}
+.email-address h4{
+   font-size: 30px;
+   margin-bottom: 20px;
+   margin-top: 110px;
+   
+}
+.email-address .glow{
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+    
+}
+.email-address .essence{
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+.email-address input[type=email]{
+    width: 270px;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+    
+}
+.email-address button{
+    padding: 13px 18px;
+    color: white;
+    background-color: rgb(196, 85, 122);
+    border: none;
+    border-radius: 5px;
+    margin-left: 70px;
+    
+}
+.email-address button:hover{
+    background-color: rgb(255, 68, 130);
+    padding: 14px 20px;
+    font-size: 15px;
+}
+.insta, .phone, .location, .facebook{
+    display: flex;
+    align-items: center;
+   
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+    background-color: rgb(233, 171, 191);
+    padding: 10px 0px;
+   
+    
+}
+footer p{
+    margin: 5px 0px;
+}
+.part1{
+    margin-top: 20px;
+}
+.google-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+
+
